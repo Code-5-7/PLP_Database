@@ -10,11 +10,13 @@
     - Soft delete support for most tables
     - Audit fields (created/updated by and timestamps)
     - Indexes for performance optimization
+    #
     Usage:
     1. Run this script in your MySQL/MariaDB environment.
     2. The script will drop and recreate the `clinic_management` database.
     3. All tables, constraints, and indexes will be created automatically.
     4. Populate tables with your data as needed.
+    #
     Notes:
     - Foreign key constraints are enforced for data integrity.
     - Default values and constraints are set for common fields.
